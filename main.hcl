@@ -1,5 +1,5 @@
 resource "lab" "main" {
-  title       = "Connect Test E"
+  title       = "Connect Test E - Feature Branch"
   description = "Outline the lab's learning objectives, topics, and prerequisites."
 
   layout = resource.layout.single_panel
