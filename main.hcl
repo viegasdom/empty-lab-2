@@ -22,4 +22,13 @@ resource "lab" "main" {
       show_stop = true
     }
   }
+  content {
+    chapter "getting-started" {
+      title = "Getting Started"
+      page "welcome" {
+        title     = "Welcome"
+        reference = resource.page.welcome
+      }
+    }
+  }
 }
